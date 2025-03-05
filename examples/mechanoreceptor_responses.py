@@ -56,7 +56,7 @@ def plot_responses(receptors, stimulus, title, duration=1000.0, dt=1.0):
         # 스파이크
         if len(spikes) > 0:
             axes[i, 3].eventplot(spikes, lineoffsets=0.5, linelengths=0.5, color='k')
-        axes[i, 3].set_ylabel('Spikes')
+        axes[i, 3].set_ylabel('Spike')
         axes[i, 3].set_xlim(0, duration)
         axes[i, 3].set_ylim(0, 1)
         axes[i, 3].grid(True)
